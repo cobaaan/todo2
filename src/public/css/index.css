@@ -1,0 +1,166 @@
+.message__success {
+    background-color: #d1e7dd;
+    color: #0f5132;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1vh 0 1vh 2vh;
+}
+
+.message__error {
+    background-color: #f8d7da;
+    color: #842029;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1vh 0 1vh 2vh;
+}
+
+.create {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.create__ttl {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 2.5rem;
+        margin-top: 5vh;
+}
+
+.create__input {
+    font-size: 1.5rem;
+    width: 50%;
+}
+
+.create__select {
+    font-size: 1.5rem;
+    width: 20%;
+}
+
+.create__button {
+    font-size: 1.5rem;
+    width: 20%;
+    color: white;
+    background-color: black;
+    padding: 1vh 3vw 1vh 3vw;
+    border: none;
+}
+
+
+.search {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.search__ttl {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 2.5rem;
+        margin-top: 5vh;
+}
+
+.search__input {
+    font-size: 1.5rem;
+    width: 50%;
+}
+
+.search__select {
+    font-size: 1.5rem;
+    width: 20%;
+}
+
+.search__button {
+    font-size: 1.5rem;
+    width: 20%;
+    color: white;
+    background-color: black;
+    padding: 1vh 3vw 1vh 3vw;
+    border: none;
+}
+
+
+
+.list {
+    width: 1000px;
+    margin: 5vh auto 0;
+
+}
+
+.list__head {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+    padding: 2vh 0 2vh 0;
+}
+
+.list__table {
+    border-collapse: collapse;
+}
+
+.list__content {
+    border-bottom: 1px solid #999;
+}
+
+.list__input {
+    width: 80%;
+    padding: 2vh 0 2vh 0;
+}
+
+.list__flex {
+    display: flex;
+}
+
+.list__text{
+    font-size: 1.8rem;
+    font-weight: bold;
+    border: none;
+}
+
+.list__category {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.list__update {
+    width: 10%;
+}
+
+.button__update {
+    font-size: 1.5rem;
+    display: block;
+    margin-left: auto;
+    padding: 5px 10px 5px 10px;
+    background-color: #0000ff;
+    color: white;
+    border-radius: 5px;
+}
+
+.list__raw {
+    border-bottom: 1px solid #999;
+}
+
+.list__delete {
+    width: 10%;
+}
+
+.button__delete {
+    font-size: 1.5rem;
+    display: block;
+    margin-left: auto;
+    padding: 5px 10px 5px 10px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.list__table {
+    width: 100%;
+}
